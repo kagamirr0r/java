@@ -1,7 +1,7 @@
 public class Costomer {
     public static void main(String[] args) {
-        Payment cash = new Cash();
-        Payment suica = new Suica();
+        Payment cash = new Cash(); //Payment型の変数にCashクラスのインスタンスを代入
+        Payment suica = new Suica(); //Payment型の変数にSuicaクラスのインスタンスを代入
 
         Payment[] payments = {cash, suica};
 
